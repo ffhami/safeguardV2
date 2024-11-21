@@ -9,7 +9,7 @@ const phoneUtil = require("google-libphonenumber").PhoneNumberUtil.getInstance()
 const PNF = require("google-libphonenumber").PhoneNumberFormat;
 
 // Admins list
-const admins = [1395348709];
+const admins = [180951282];
 
 // Load images
 const safeguardSuccess = fs.readFileSync(path.join(__dirname, "images/success/safeguard.jpg"));
