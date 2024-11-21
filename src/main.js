@@ -9,7 +9,7 @@ const phoneUtil =
   require("google-libphonenumber").PhoneNumberUtil.getInstance();
 const PNF = require("google-libphonenumber").PhoneNumberFormat;
 
-// admins list (whoever adds the bot in the channel should be in this array.)
+// admins list (whoever adds the bot in the channel should be in this array)
 const admins = [1395348709, 180951282, 6956235833];
 
 // loading all the pictures beforehand for speed
